@@ -5,7 +5,7 @@ const Navber = () => {
 
     const menuItem =
         <>
-            <Link className='mr-3' to='/home'>Home</Link>
+            <Link className='mr-3' to='/'>Home</Link>
             <Link className='mr-3' to='/about'>About</Link>
             <Link className='mr-3' to='/appointment'>Appointment</Link>
             <Link className='mr-3' to='/reviews'>Reviews</Link>
@@ -27,9 +27,9 @@ const Navber = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl" >Doctor Portal</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex ">
                 <ul className="menu menu-horizontal p-0">
                     {menuItem}
                 </ul>
