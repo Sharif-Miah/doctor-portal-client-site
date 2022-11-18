@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import AppointmentAvailable from './AppointmentAvailable';
 import AppointmentBanner from './AppointmentBanner/AppointmentBanner';
 
 const Appointment = () => {
@@ -12,6 +13,7 @@ const Appointment = () => {
                 selectedTime={selectedTime}
                 setSelectedTime={setSelectedTime}
             />
+            <AppointmentAvailable selectedTime={selectedTime} />
         </div>
     );
 };
