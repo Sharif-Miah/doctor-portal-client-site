@@ -3,6 +3,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import AppointmentOption from './AppointmentOption';
+import BookingModal from './BookingModal';
 
 const AppointmentAvailable = ({ selectedTime }) => {
 
@@ -26,6 +27,7 @@ const AppointmentAvailable = ({ selectedTime }) => {
 
                 }
             </div>
+            <BookingModal />
         </div>
     );
 };
